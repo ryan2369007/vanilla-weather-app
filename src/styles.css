@@ -8,11 +8,20 @@
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 7px;
+    background: #ececec;
+}
+
+body {
+    color: #385170; 
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #9fd3c7 !important;
+    border: 1px solid #9fd3c7;
 }
 
 h1{
-    color: rgb(112, 117, 122);
-    font-family: "Google Sans", Roboto, arial, sans-serif;
     font-size: 22px;
     font-weight: 500;
     height: 26px;
@@ -27,9 +36,7 @@ ul {
 
 li { 
     list-style: none;
-    color: rgb(112, 117, 122);
     display: block;
-    font-family: Roboto, arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -40,8 +47,7 @@ li {
 }
 
 .current-temp {
-    color: rgb(32, 33, 36);
-    font-family: "Google Sans", Roboto, arial, sans-serif;
+    color: 142d4c;
     font-size: 64px;
     font-weight: 400;
     position: relative;
@@ -61,7 +67,7 @@ li {
 
 .active {
     cursor: default;
-    color: rgb(32, 33, 36);
+    color: 142d4c;
 }
 
 .extra-info {
