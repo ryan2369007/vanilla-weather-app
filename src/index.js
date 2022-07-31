@@ -75,6 +75,12 @@ function showFahrenheitTemp(event) {
     temperatureElement.innerHTML = Math.round(fahrenheitTemp);
 }
 
+function showCelsiusTemp(event) {
+  event.preventDefault();
+  let temperatureElement = document.querySelector("#temperature");
+  temperatureElement.innerHTML = Math.round(celsiusTemp);
+}
+
 let celsiusTemp = null;
 
 let form = document.querySelector("#search-form");
@@ -82,5 +88,8 @@ form.addEventListener("submit", handleSubmit);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", showFahrenheitTemp);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", showCelsiusTemp);
 
 search("New York")
