@@ -35,7 +35,7 @@ li {
     margin: 0;
 }
 
-.description {
+.description:first-letter {
     text-transform: capitalize;
 }
 
