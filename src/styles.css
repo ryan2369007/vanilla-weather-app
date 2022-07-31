@@ -35,14 +35,21 @@ li {
     margin: 0;
 }
 
-.current-temperature {
-    color rgb(32, 33, 36)
-    display inline
-    font-family "Google Sans", Roboto, arial, sans-serif
-    font-size 48px
-    font-weight 400
-    height auto
-    letter-spacing normal
-    line-height 56px
-    width auto
+.current-temp {
+    color: rgb(32, 33, 36);
+    font-family: "Google Sans", Roboto, arial, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+}
+
+.units {
+    font-size: 16px;
+    position: relative; 
+    top: -16px;
+}
+
+.prec-hum-wind {
+    padding: 32px 0 0;
 }
