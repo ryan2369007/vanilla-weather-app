@@ -26,7 +26,6 @@ ul {
 }
 
 li { 
-    
     list-style: none;
     color: rgb(112, 117, 122);
     display: block;
@@ -34,6 +33,10 @@ li {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+}
+
+.description {
+    text-transform: capitalize;
 }
 
 .current-temp {
