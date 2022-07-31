@@ -59,6 +59,11 @@ li {
     text-decoration: none;
 }
 
+.active {
+    cursor: default;
+    color: rgb(32, 33, 36);
+}
+
 .extra-info {
     padding: 32px 0 0;
 }
