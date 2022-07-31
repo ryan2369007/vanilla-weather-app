@@ -46,8 +46,13 @@ li {
     text-transform: capitalize;
 }
 
+.icon {
+    position: relative;
+    left: -20px;
+}
+
 .current-temp {
-    color: 142d4c;
+    color: #142d4c;
     font-size: 64px;
     font-weight: 400;
     position: relative;
@@ -63,11 +68,16 @@ li {
 
 .links {
     text-decoration: none;
+    color: #9fd3c7;
 }
 
 .active {
     cursor: default;
-    color: 142d4c;
+    color: #142d4c;
+}
+
+.active:visited {
+    color: #142d4c;
 }
 
 .extra-info {
