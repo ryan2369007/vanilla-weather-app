@@ -55,6 +55,10 @@ li {
     top: -30px;
 }
 
+.links {
+    text-decoration: none;
+}
+
 .extra-info {
     padding: 32px 0 0;
 }
