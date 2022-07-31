@@ -76,6 +76,11 @@ li {
     color: #142d4c;
 }
 
+.active:hover {
+    cursor: default;
+    color: #142d4c;
+}
+
 .active:visited {
     color: #142d4c;
 }
