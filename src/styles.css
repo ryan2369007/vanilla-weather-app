@@ -45,15 +45,17 @@ li {
     font-size: 64px;
     font-weight: 400;
     position: relative;
-    top: 20px;
+    top: 3px;
 }
 
 .units {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 10px;
     position: relative; 
-    top: -16px;
+    top: -30px;
 }
 
-.prec-hum-wind {
+.extra-info {
     padding: 32px 0 0;
 }
+
