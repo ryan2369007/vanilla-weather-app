@@ -94,11 +94,15 @@ li {
     text-align: center;
 }
 
-.day, .max, .min {
+.forecast-day, .forecast-temp {
     font-weight: 200;
     color: #142d4c;
 }
 
-.min {
+.forecast-temp-min {
    opacity: .5;
+}
+
+.forecast-temp {
+    font-size: smaller;
 }
