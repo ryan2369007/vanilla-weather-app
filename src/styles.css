@@ -89,3 +89,16 @@ li {
     padding: 32px 0 0;
 }
 
+.forecast {
+    margin-top = 30px;
+    text-align: center;
+}
+
+.day, .max, .min {
+    font-weight: 200;
+    color: #142d4c;
+}
+
+.min {
+   opacity: .5;
+}
