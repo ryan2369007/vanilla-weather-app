@@ -71,8 +71,8 @@ function getForecast(coordinates) {
 
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
-  celsiusTemp = response.data.main.temp;
-  temperatureElement.innerHTML = Math.round(celsiusTemp);
+  fahrenheitTemp = response.data.main.temp;
+  temperatureElement.innerHTML = Math.round(fahrenheitTemp);
 
   let cityElement = document.querySelector("#city");
   cityElement.innerHTML = response.data.name;
@@ -114,32 +114,7 @@ function handleSubmit(event) {
     search(cityInputElement.value);
 }
 
-function showFahrenheitTemp(event) {
-    event.preventDefault();
-    let temperatureElement = document.querySelector("#temperature");
-    celsiusLink.classList.remove("active");
-    fahrenheitLink.classList.add("active");
-    let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
-    temperatureElement.innerHTML = Math.round(fahrenheitTemp);
-}
-
-function showCelsiusTemp(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  fahrenheitLink.classList.remove("active");
-  celsiusLink.classList.add("active");
-  temperatureElement.innerHTML = Math.round(celsiusTemp);
-}
-
-let celsiusTemp = null;
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", showFahrenheitTemp);
-
-let celsiusLink = document.querySelector("#celsius-link");
-celsiusLink.addEventListener("click", showCelsiusTemp);
 
 search("Boston")
