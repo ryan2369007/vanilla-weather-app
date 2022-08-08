@@ -57,6 +57,7 @@ li {
     font-weight: 400;
     position: relative;
     top: 3px;
+    right: 10px;
 }
 
 .units {
@@ -64,6 +65,7 @@ li {
     line-height: 10px;
     position: relative; 
     top: -30px;
+    right: 15px;
 }
 
 .links {
