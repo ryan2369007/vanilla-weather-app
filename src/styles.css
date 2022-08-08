@@ -21,6 +21,10 @@ body {
     border: 1px solid #9fd3c7;
 }
 
+.button-cell {
+    padding-left: 0;
+}
+
 h1{
     font-size: 22px;
     font-weight: 900;
@@ -61,7 +65,7 @@ li {
     font-weight: 400;
     position: relative;
     top: 3px;
-    right: 10px;
+    right: -5px;
 }
 
 .units {
@@ -69,7 +73,6 @@ li {
     line-height: 10px;
     position: relative; 
     top: -30px;
-    right: 15px;
 }
 
 .links {
